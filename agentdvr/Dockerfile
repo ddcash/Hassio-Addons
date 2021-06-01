@@ -36,6 +36,9 @@ RUN if [ "${FILE_LOCATION_SET}" = "true" ]; then \
     unzip agent.zip -d /agent && \
     rm agent.zip
 
+# Data volumes
+COPY rootfs /
+
 # Main UI port
 EXPOSE 8090
 
@@ -44,9 +47,6 @@ EXPOSE 3478/udp
 
 # TURN server UDP port range
 EXPOSE 50000-50010/udp
-
-# Data volumes
-COPY rootfs /
 
 # Build arguments
 ARG BUILD_DATE
