@@ -8,7 +8,7 @@ ARG BUILD_ARCH
 
 #Install Prereqs
 RUN apt-get update && apt-get install -y curl wget && apt-get install -y software-properties-common && apt-get install -y unzip && apt-get -y install tzdata
-
+RUN apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y aspnetcore-runtime-3.1
 RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && dpkg -i packages-microsoft-prod.deb
 
 #Install .NET and SDK Runtimeon Linux
