@@ -9,4 +9,4 @@
 
 bashio::log.info 'Starting the AgentDVR...'
 # Run agentdvr
-exec ~/.dotnet/dotnet /agent/Agent.dll
+exec dotnet /agent/Agent.dll
