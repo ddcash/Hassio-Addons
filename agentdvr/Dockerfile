@@ -60,11 +60,11 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Joshua Peterson <https://github.com/Jpeterson37>" \
+    maintainer="N3r0X <https://github.com/n3r0x>" \
     org.opencontainers.image.title="AgentDVR" \
     org.opencontainers.image.description="Addon to run AgentDVR with Home Assistant" \
-    org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
-    org.opencontainers.image.authors="Joshua Peterson <https://github.com/Jpeterson37>" \
+    org.opencontainers.image.vendor="Home Assistant Add-ons" \
+    org.opencontainers.image.authors="N3r0X <https://github.com/>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
     org.opencontainers.image.source="https://github.com/hassio-addons/addon-agentdvr" \
