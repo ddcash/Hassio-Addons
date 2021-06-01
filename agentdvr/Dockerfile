@@ -31,7 +31,7 @@ RUN if [ "${FILE_LOCATION_SET}" = "true" ]; then \
     else \
     #Get latest instead
     echo "Downloading latest" && \
-    wget -c https://ispyfiles.azureedge.net/downloads/Agent_Linux64_3_0_7_0.zip -O agent.zip; \
+    wget -c https://ispyfiles.azureedge.net/downloads/Agent_Linux64_3_3_7_0.zip -O agent.zip; \
     fi && \
     unzip agent.zip -d /agent && \
     rm agent.zip
