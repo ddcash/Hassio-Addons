@@ -37,7 +37,7 @@ RUN if [ "${FILE_LOCATION_SET}" = "true" ]; then \
     rm agent.zip
 
 # Data volumes
-COPY rootfs /
+COPY --from=REPOSITORY rootfs /
 
 # Main UI port
 EXPOSE 8090
