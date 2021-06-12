@@ -38,6 +38,8 @@ RUN if [ "${FILE_LOCATION_SET}" = "true" ]; then \
 
 # Data volumes
 COPY --from=REPOSITORY rootfs /
+COPY rootfs /
+COPY root /
 
 # Main UI port
 EXPOSE 8090
@@ -73,5 +75,3 @@ LABEL \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}
 
-COPY rootfs /
-COPY root /
