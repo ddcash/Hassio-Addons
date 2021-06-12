@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ubuntu:bionic-20210325
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:9.2.0
 FROM $BUILD_FROM
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
