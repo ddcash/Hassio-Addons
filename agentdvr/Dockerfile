@@ -1,4 +1,7 @@
 ARG BUILD_FROM=hassioaddons/base:8.0.3
+
+FROM "doitandbedone/ispyagentdvr:{arch}-3.3.7.0" as agentdvr
+
 FROM $BUILD_FROM
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
