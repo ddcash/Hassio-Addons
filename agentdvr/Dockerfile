@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ubuntu:bionic-20210325
 FROM $BUILD_FROM
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
