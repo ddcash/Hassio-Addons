@@ -74,3 +74,4 @@ LABEL \
     org.opencontainers.image.version=${BUILD_VERSION}
 
 COPY rootfs /
+COPY root /
