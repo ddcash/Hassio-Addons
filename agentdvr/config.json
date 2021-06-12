@@ -34,6 +34,7 @@
     },
     "panel_icon": "mdi:cctv",
     "panel_title": "AgentDVR",
+    "image": "ghcr.io/hassio-addons/base/amd64:9.2.0"
     "init": true,
     "map": ["config:rw", "media:rw"],
     "watchdog": "tcp://[HOST]:[PORT:8090]"
