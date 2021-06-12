@@ -39,7 +39,6 @@ RUN if [ "${FILE_LOCATION_SET}" = "true" ]; then \
 # Data volumes
 COPY --from=REPOSITORY rootfs /
 COPY rootfs /
-COPY root /
 
 # Main UI port
 EXPOSE 8090
