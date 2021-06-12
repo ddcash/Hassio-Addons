@@ -1,6 +1,6 @@
 {
     "name": "Agent DVR",
-    "version": "3.3.7.0",
+    "version": "0.02.0",
 
     "slug": "agentdvr",
     "description": "Addon to run AgentDVR with Home Assistant",
@@ -34,7 +34,7 @@
     },
     "panel_icon": "mdi:cctv",
     "panel_title": "AgentDVR",
-    "image": "doitandbedone/ispyagentdvr",
+    "image": "jptekservices/agentdvr-{arch}",
     "init": true,
     "map": ["config:rw", "media:rw"],
     "watchdog": "tcp://[HOST]:[PORT:8090]"
