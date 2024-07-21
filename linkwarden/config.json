@@ -20,7 +20,7 @@
   "map": [
     "addon_config:rw"
   ],
-  "name": "Linkwarden-Authentik",
+  "name": "Linkwarden",
   "ports": {
     "3000/tcp": 3000
   },
